@@ -1,8 +1,11 @@
 import React from 'react'
+import Sidebar from '../../components/Sidebar/Sidebar'
 
 const MainPage = () => {
   return (
-    <div>Testing router system</div>
+    <div>
+      <Sidebar/>
+    </div>
   )
 }
 
