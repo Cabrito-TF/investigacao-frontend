@@ -12,3 +12,12 @@ export const Main = styled.div`
   position:absolute;
   flex-direction:column;
 `
+export const MainLanding = styled.div`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction:column;
+`
