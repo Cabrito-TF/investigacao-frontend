@@ -1,8 +1,8 @@
 import { Lock, User } from 'phosphor-react'
 import React from 'react'
 import { useHref, useNavigate } from 'react-router-dom'
-import Sidebar from '../../components/Sidebar/Sidebar'
-import {MainLanding } from '../../assets/styles/PageStyle'
+import Sidebar from '../components/Sidebar/Sidebar'
+import {MainLanding } from '../assets/styles/PageStyle'
 
 const Landing = () => {
   const logo = "https://labortronica.com.br/wp-content/uploads/2018/06/logot.png";

@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import FileUpload from './pages/FileUpload/FileUpload'
-import Landing from './pages/Landing/Landing'
-import MainPage from './pages/MainPage/MainPage'
-import Recent from './pages/Recent/Recent'
+import FileUpload from './pages/FileUpload'
+import Landing from './pages/Landing'
+import MainPage from './pages/MainPage'
+import Recent from './pages/Recent'
 
 const Router = () => {
   return (
