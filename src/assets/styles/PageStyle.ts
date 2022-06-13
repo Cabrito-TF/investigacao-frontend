@@ -21,3 +21,7 @@ export const MainLanding = styled.div`
   display:flex;
   flex-direction:column;
 `
+export const Upload = styled.div`
+  position:relative;
+  padding-left:10rem;
+`;
