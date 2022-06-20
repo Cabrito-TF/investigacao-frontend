@@ -20,7 +20,7 @@ const FileUpload = () => {
     form.append("pdf",file);
     form.append("client",client);
     form.append("tags",tags);
-    axios.post(`http://localhost:3333/files/upload`, form,
+    axios.post(`https://backend-purple-cloud.herokuapp.com/files/upload`, form,
     {headers: {
       "Content-Type": "multipart/form-data",
     }})
