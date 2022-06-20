@@ -16,7 +16,6 @@ const MainPage = () => {
       <div className='flex flex-col'>
         {pdf.map((file, index) => <a href={`src/assets/pdfs/${file}`} key={index} target='_blank' rel='noreferrer' className='text-white'>{file.slice(0,-4)}</a>)}
       </div>
-      <FileCard/>
       </div>
     </Main>
   )

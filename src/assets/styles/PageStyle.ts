@@ -23,5 +23,5 @@ export const MainLanding = styled.div`
 `
 export const Upload = styled.div`
   position:relative;
-  padding-left:10rem;
+  margin-left:10rem;
 `;
